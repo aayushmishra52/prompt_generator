@@ -1,6 +1,6 @@
 # Prompt Generator Website
 
-This project is a clone of the Prompt Cowboy website (https://www.promptcowboy.ai/), a tool for generating AI prompts for various platforms like ChatGPT, Midjourney, DALL-E, and Stable Diffusion.
+a tool for generating AI prompts for various platforms like ChatGPT, Midjourney, DALL-E, and Stable Diffusion.
 
 ## Features
 
@@ -17,21 +17,7 @@ This project is a clone of the Prompt Cowboy website (https://www.promptcowboy.a
 - JavaScript (ES6+)
 - Font Awesome for icons
 
-## Setup Instructions
 
-1. Clone this repository
-2. Open the project folder
-3. Open `index.html` in your browser
-
-Alternatively, you can use a local development server:
-
-```bash
-# If you have Python installed
-python -m http.server
-
-# If you have Node.js installed
-npx serve
-```
 
 ## Project Structure
 
@@ -50,4 +36,4 @@ npx serve
 
 ## License
 
-This project is created for educational purposes only.
+This project is created for educational purposes only and own by aayush mishra all rights are reserved.
