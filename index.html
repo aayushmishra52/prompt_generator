@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush Mishra's Prompt Generator - AI Prompt Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="ChatGPT Image Apr 13, 2025, 12_08_37 AM.png" alt="Aayush Mishra Logo" class="logo-img">
+                <h1>Aayush Mishra's Prompt Generator</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Aayush Mishra's Perfect AI Prompts Generator</h1>
+                <p>Create high-quality prompts for ChatGPT, Midjourney, DALL-E, and other AI tools with our advanced prompt generator.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="generator">
+        <div class="container">
+            <div class="generator-card">
+                <h2>Prompt Generator</h2>
+                <div class="input-group">
+                    <label for="prompt-type">Select AI Tool</label>
+                    <select id="prompt-type">
+                        <option value="chatgpt">ChatGPT</option>
+                        <option value="claude">Claude 3.7</option>
+                        <option value="gemini">Gemini</option>
+                        <option value="deepseek">DeepSeek</option>
+                        <option value="midjourney">Midjourney</option>
+                        <option value="dalle">DALL-E</option>
+                        <option value="stable-diffusion">Stable Diffusion</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="prompt-topic">What do you want to create?</label>
+                    <input type="text" id="prompt-topic" placeholder="E.g., A business plan for a coffee shop">
+                </div>
+                <div class="input-group">
+                    <label for="prompt-style">Style/Tone</label>
+                    <select id="prompt-style">
+                        <option value="professional">Professional</option>
+                        <option value="creative">Creative</option>
+                        <option value="academic">Academic</option>
+                        <option value="conversational">Conversational</option>
+                        <option value="development">Application Development</option>
+                        <option value="reasoning">Reasoning</option>
+                        <option value="research">Research</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="prompt-length">Output Length</label>
+                    <select id="prompt-length">
+                        <option value="short">Short</option>
+                        <option value="medium">Medium</option>
+                        <option value="long">Long</option>
+                        <option value="detailed">Detailed</option>
+                    </select>
+                </div>
+                <button id="generate-btn">Generate Prompt</button>
+                <div class="result-area">
+                    <h3>Your Generated Prompt</h3>
+                    <div id="prompt-result">
+                        <p class="placeholder">Your generated prompt will appear here...</p>
+                    </div>
+                    <div class="result-actions">
+                        <button id="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                        <button id="save-btn"><i class="fas fa-save"></i> Save</button>
+                        <button id="regenerate-btn"><i class="fas fa-redo"></i> Regenerate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose Our Prompt Generator?</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast & Efficient</h3>
+                    <p>Generate high-quality prompts in seconds with our advanced AI technology.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-sliders-h"></i>
+                    <h3>Customizable</h3>
+                    <p>Tailor your prompts with various parameters to get exactly what you need.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-magic"></i>
+                    <h3>AI-Optimized</h3>
+                    <p>Our prompts are designed to work perfectly with popular AI tools.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-history"></i>
+                    <h3>History & Favorites</h3>
+                    <p>Save your favorite prompts and access your generation history anytime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <div class="user-info">
+                        <div>
+                            <h4>Raj</h4>
+                            <p>Digital Artist</p>
+                        </div>
+                    </div>
+                    <p class="quote">"This prompt generator has completely transformed my workflow with Midjourney. I'm creating better art in less time!"</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="user-info">
+                        <div>
+                            <h4>Shruti</h4>
+                            <p>Content Creator</p>
+                        </div>
+                    </div>
+                    <p class="quote">"I use this tool daily for my ChatGPT interactions. The quality of prompts it generates saves me hours of work every week."</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Prompt Generator</h2>
+                    <p>The #1 tool for creating perfect AI prompts</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Subscribe to our newsletter</h4>
+                    <p>Get the latest updates and tips for AI prompting</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="your email">
+                        <button>Subscribe</button>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/aayushmishra52"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/aareyoush/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aayush-mishra-3a126628a"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Aayush Mishra's Prompt Generator. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
